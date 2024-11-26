@@ -477,11 +477,6 @@ fill: #fff;
   gap: 2rem;
 }
 
-.content{
-  display: flex;
-  flex-direction: ;
-  gap: .75rem;
-}
 
 .column-2-component img{
   width: 100%;
