@@ -358,11 +358,15 @@ fill: #fff;
 
 /* Contact Form */
 .contact-container{
-  height: 500px;
   display: flex;
-  align-items: top; 
   justify-content: space-evenly;
   gap: 2rem;
+}
+
+.contact-page{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .contact-right{
@@ -403,8 +407,8 @@ fill: #fff;
 
 }
 .contact-me-image{
-  width: 540px;
-  height: 624px;
+  max-width: 540px;
+  max-height: 624px;
   object-fit: cover;
 }
 
@@ -436,6 +440,15 @@ fill: #fff;
   height: calc(100vh - 80px);
 }
 
+.background-hero-section.repertoire-hero-image {
+  background-image: url(../images/unoptimized/04-repertoire-images/background-hero-4.jpg);
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover; 
+  height: calc(100vh - 80px);
+}
+
+
 .background-hero-content{
   display: flex;
   flex-direction: column;
@@ -458,6 +471,13 @@ fill: #fff;
   justify-content: space-between;
   gap: 2rem;
 }
+
+.content{
+  display: flex;
+  flex-direction: ;
+  gap: .75rem;
+}
+
 .column-2-component img{
   width: 100%;
   overflow-x:hidden;

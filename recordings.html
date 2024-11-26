@@ -226,37 +226,36 @@
 
          
          <!-- Section Contact -->
-          <!-- TODO Have form connect to email using web3forms -->
-          <!-- LINK: https://www.youtube.com/watch?v=-HeadgoqJ7A @14:18-->
          <section class="padding-global">
             <div class="contact-container container-medium padding-section-medium">
-                <form class="contact-left max-width-medium"action="">
+                <form class="contact-left" action="https://api.web3forms.com/submit" method="POST"></form>
                     <div class="contact-left-title">
                         <h2>Contact Me</h2>
                         <p>For bookings, collaborations, or inquiries, please use the form below. I look forward to connecting with you!</p>
+                    </div>
 
+                    <div class="contact-right">
+                        <input type="hidden" name="access_key" value="7674aa40-031b-478f-ab9c-9fc85e62e63f">
+                        <div class="input-tag">
+                            <p>Name</p>
+                            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                        </div class="input-tag">
+                        
+                        <div class="input-tag">
+                            <p>Email</p>
+                            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                        </div class="input-tag"> 
+                        
+                        <div class="input-tag">
+                            <p>Message</p>
+                            <textarea name="message" placeholder="Your Message" class="contact-inputs"></textarea>
+                        </div class="input-tag">
+                        
+                        <button type="submit" class="button">
+                            Submit
+                        </button>
                     </div>
                 </form>
-                <div class="contact-right">
-                    <div class="input-tag">
-                        <p>Name</p>
-                        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                    </div class="input-tag">
-                    
-                    <div class="input-tag">
-                        <p>Email</p>
-                         <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-                    </div class="input-tag"> 
-
-                    <div class="input-tag">
-                        <p>Message</p>
-                         <textarea name="message" placeholder="Your Message" class="contact-inputs"></textarea>
-                    </div class="input-tag">
-
-                     <button type="submit" class="button">
-                        Submit
-                    </button>
-                </div>
 
             </div>
         </section>
