@@ -457,7 +457,7 @@ p {
 }
 
 .background-hero-section.repertoire-hero-image {
-  background-image: url(../images/unoptimized/04-repertoire-images/background-hero-4.jpg);
+  background-image: url(../images/unoptimized/00-home-images/gallery-5.jpg);
   background-repeat: no-repeat; 
   background-position: center; 
   background-size: cover; 
@@ -807,7 +807,7 @@ flex-direction: row;
     gap: .5rem; 
     align-items: flex-start;
     padding: 1rem 0rem 1rem 0rem; 
-    border-bottom: 1px solid; 
+ 
   }
  
   .recording-component {
