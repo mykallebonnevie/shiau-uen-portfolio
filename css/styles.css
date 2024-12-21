@@ -746,8 +746,19 @@ flex-direction: row;
     grid-row: 2;
    }
    .background-hero-section{
-    height: 100vw;
+    height: 50vh;
    }
+
+   .background-hero-section.events-hero-image{
+    height: 50vh;
+   }
+   .background-hero-section.recordings-hero-image{
+    height: 50vh; 
+   }
+   .background-hero-section.repertoire-hero-image {
+    height: 50vh; 
+   }
+
   }
 
 
@@ -760,6 +771,9 @@ flex-direction: row;
     flex-direction: column;
     height: auto; 
     gap: 1.25rem;
+  }
+  .contact-left{
+    flex-direction: column;
   }
 
   .hero-container{
