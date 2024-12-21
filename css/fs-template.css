@@ -1218,8 +1218,8 @@ html {
   .button {
     display: block;
     width: auto;
-    background-color: var(--base-color-neutral--black);
-    color: var(--text-color--text-alternate);
+    background-color: var(--base-color-neutral--white);
+    color: var(--base-color-neutral--dark);
     border-width: 0;
     text-align: center;
     border-radius: .25rem;
